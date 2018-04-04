@@ -3,4 +3,14 @@
   <groupId>JavaConcepts</groupId>
   <artifactId>JavaConcepts</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
+  <dependencies>
+  	<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+	<dependency>
+	    <groupId>mysql</groupId>
+	    <artifactId>mysql-connector-java</artifactId>
+	    <version>6.0.6</version>
+	</dependency>
+  	
+  </dependencies>
 </project>
