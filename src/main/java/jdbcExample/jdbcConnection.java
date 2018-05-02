@@ -10,8 +10,8 @@ public class jdbcConnection {
 	static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";  
 	static final String JDBC_DB_URL = "jdbc:mysql://localhost:3306/db_example";
 
-	static final String JDBC_USER = "";
-	static final String JDBC_PASS = "";
+	static final String JDBC_USER = "root";
+	static final String JDBC_PASS = "zoobank";
 	
 	public static void main(String[] args) {
 		try {
@@ -22,6 +22,8 @@ public class jdbcConnection {
 			
 			ResultSet rs = preparedStatement.executeQuery();
 			System.out.println(rs.first());
+			
+			conn.close();
 			
 		} catch(Exception e) {
 			e.printStackTrace();
