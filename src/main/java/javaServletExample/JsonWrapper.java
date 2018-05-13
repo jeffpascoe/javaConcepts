@@ -8,7 +8,7 @@ public class JsonWrapper {
 	public JsonObject createValidJsonResponse(String name) {
 		
 		JsonObject jsonObject = new JsonObject();
-		jsonObject.addProperty("name", name);;
+		jsonObject.addProperty("name", name);
 		return jsonObject;
 	}
 
