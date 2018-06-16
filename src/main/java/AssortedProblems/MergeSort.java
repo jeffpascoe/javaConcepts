@@ -10,7 +10,7 @@ public class MergeSort {
 	public static void main(String[] args) {
 		int[] arr = new int[10];
 		Random rand = new Random();
-		for(int i=0; i < 10; i++) { arr[i] = rand.nextInt(10); }
+		for(int i=0; i < 10; i++) { arr[i] = rand.nextInt(100); }
 		
 		mergeSort(arr, 0, arr.length-1);
 	}
@@ -19,7 +19,8 @@ public class MergeSort {
 		if(startIndex <= endIndex) {
 			int midIndex = (arr.length-1)/2;
 			mergeSort(arr, startIndex, midIndex);
-			mergeSort(arr, midIndex, endIndex);
+			mergeSort(arr, midIndex+1, endIndex);
+				
 			merge(arr, startIndex, midIndex, endIndex);
 		}
 	}
