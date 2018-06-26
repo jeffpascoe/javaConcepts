@@ -1,6 +1,5 @@
-package AssortedProblems;
+package assortedSolutions;
 
-import java.util.ArrayList;
 import java.util.Random;
 
 

@@ -1,4 +1,4 @@
-package AssortedProblems;
+package assortedSolutions;
 
 public class PalindromeIterative {
 

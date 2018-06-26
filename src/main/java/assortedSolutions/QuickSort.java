@@ -1,4 +1,4 @@
-package AssortedProblems;
+package assortedSolutions;
 
 import java.util.Random;
 
