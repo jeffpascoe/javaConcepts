@@ -1,4 +1,4 @@
-package assortedSolutions;
+package sortingAlgorithms;
 
 public class InsertionSort {
 
@@ -6,5 +6,6 @@ public class InsertionSort {
 		
 
 	}
+
 
 }

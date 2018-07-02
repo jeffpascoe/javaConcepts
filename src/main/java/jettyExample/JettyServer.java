@@ -1,9 +1,5 @@
-package JettyServer;
+package jettyExample;
 
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-
-import org.eclipse.jetty.server.Request;
 import org.eclipse.jetty.server.Server;
 
 public class JettyServer {

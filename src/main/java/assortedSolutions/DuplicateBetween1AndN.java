@@ -5,7 +5,6 @@ import java.util.Random;
 
 public class DuplicateBetween1AndN {
 
-
     public static void main(String[] args) {
         Random rand = new Random();
         int[] ints = new int[1005];
@@ -34,7 +33,6 @@ public class DuplicateBetween1AndN {
             }
         }
 
-        System.out.println(0);
         return duplicateItem;
     }
 

@@ -1,4 +1,4 @@
-package LibraryImplementation;
+package library;
 
 import java.util.HashMap;
 
@@ -9,8 +9,8 @@ public class Library {
 		this.inventory.put(book.getBIN(), book);
 	}
 	
-	public void addVideoGameToInventory(VideoGame videoGame) {
-		this.inventory.put(videoGame, value);
+	public void addVideoGameToInventory(VideoGame videoGame, int value) {
+		this.inventory.put(value, videoGame);
 	}
 	
 	public Book rentBook(int bin) {

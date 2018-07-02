@@ -1,12 +1,10 @@
-package JettyServer;
+package jettyExample;
 
-import java.io.BufferedInputStream;
 import java.io.IOException;
 import java.io.PrintWriter;
 
 import javaServletExample.JsonWrapper;
 
-import javax.servlet.ServletInputStream;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 

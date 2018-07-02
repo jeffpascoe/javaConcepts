@@ -1,4 +1,4 @@
-package assortedSolutions;
+package sortingAlgorithms;
 
 import java.util.Random;
 

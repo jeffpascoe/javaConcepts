@@ -1,4 +1,4 @@
-package LibraryImplementation;
+package library;
 
 public class Main {
 
