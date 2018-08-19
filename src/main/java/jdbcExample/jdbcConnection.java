@@ -11,7 +11,7 @@ public class jdbcConnection {
 	static final String JDBC_DB_URL = "jdbc:mysql://localhost:3306/db_example";
 
 	static final String JDBC_USER = "root";
-	static final String JDBC_PASS = "zoobank";
+	static final String JDBC_PASS = "password";
 	
 	public static void main(String[] args) {
 		try {
